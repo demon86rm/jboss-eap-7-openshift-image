@@ -29,8 +29,7 @@ for resource in \
   eap74-amq-s2i.json \
   eap74-basic-s2i.json \
   eap74-https-s2i.json \
-  eap74-sso-s2i.json \
-  eap74-tx-recovery-s2i.json
+  eap74-sso-s2i.json
 do
   oc replace --force -f \
 https://raw.githubusercontent.com/jboss-container-images/jboss-eap-openshift-templates/eap74/templates/${resource}
@@ -100,7 +99,7 @@ oc create -n myproject -f https://raw.githubusercontent.com/jboss-openshift/appl
 
 Please refer to the EAP Documentation for additional details.
 
-https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.4/html/ 
+https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.4/html/getting_started_with_jboss_eap_for_openshift_container_platform/index 
 
 ## License
 
